@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+</head>
+<body>
+    <div id="confirm">
+    <h1>Input your account information for verification</h1>
+    <form id="formCancel">
+     
+       <label for="username"><strong><span aria-label="required">*</span></strong> Username:</label>
+        <input id="username" type="text" name="user_name" required> 
+        
+        <label class="pass" for="password"><strong><span aria-label="required">*</span></strong> Password:</label>
+        <input id="password" type="password" pattern="^[A-Za-z0-9._!$\\\]{8,20}+$" name="user_password" required>
+        <div id="cancelButton">
+        <button id="cancelMembership">Continue to Cancel</button>
+        </div>
+           </form>
+    </div>
+ 
+
+</body>
+</html>

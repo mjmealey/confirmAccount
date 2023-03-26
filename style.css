@@ -1,0 +1,40 @@
+#fontface{
+    font-family:helvetica;
+    src: url("Helvetica.ttf")
+}
+
+body{
+    background-color:steelblue;
+    color:white;
+}
+
+#confirm{
+    display:flex;
+    font-family:helvetica;
+    flex-direction:column;
+    align-items:center;
+    margin-top:400px;
+    justify-content:space-around;
+}
+
+#username{
+    margin-right:50px;
+}
+
+
+
+#cancelMembership{
+padding:10px;
+color:white;
+font-family:helvetica;
+background-color:#599fda;
+border-radius:10px;
+border-style:solid;
+border-color:#599fda;
+}
+
+#cancelButton{
+    margin-left:250px;
+    margin-top:50px;
+    font-family:helvetica;
+}
